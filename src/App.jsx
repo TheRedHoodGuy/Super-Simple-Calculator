@@ -18,119 +18,121 @@ const App = (btn_value) => {
             type="button"
             value="9"
             onClick={(e) => setDisplayValue(displayValue + e.target.value)}
-            className="bg-blue-400 px-6 py-2 text-white rounded hover:bg-blue-300 duration-150"
+            className="bg-blue-600 px-6 py-2 text-white rounded hover:bg-blue-500 duration-150"
           />
 
           <input
             type="button"
             value="8"
             onClick={(e) => setDisplayValue(displayValue + e.target.value)}
-            className="bg-blue-400 px-6 py-2 text-white rounded hover:bg-blue-300 duration-150"
+            className="bg-blue-600 px-6 py-2 text-white rounded hover:bg-blue-500 duration-150"
           />
 
           <input
             type="button"
             value="7"
             onClick={(e) => setDisplayValue(displayValue + e.target.value)}
-            className="bg-blue-400 px-6 py-2 text-white rounded hover:bg-blue-300 duration-150"
+            className="bg-blue-600 px-6 py-2 text-white rounded hover:bg-blue-500 duration-150"
           />
 
           <input
             type="button"
             value="+"
             onClick={(e) => setDisplayValue(displayValue + e.target.value)}
-            className="bg-blue-400 px-6 py-2 text-white rounded hover:bg-blue-300 duration-150"
+            className="bg-blue-600 px-6 py-2 text-white rounded hover:bg-blue-500 duration-150"
           />
 
           <input
             type="button"
             value="6"
             onClick={(e) => setDisplayValue(displayValue + e.target.value)}
-            className="bg-blue-400 px-6 py-2 text-white rounded hover:bg-blue-300 duration-150"
+            className="bg-blue-600 px-6 py-2 text-white rounded hover:bg-blue-500 duration-150"
           />
 
           <input
             type="button"
             value="5"
             onClick={(e) => setDisplayValue(displayValue + e.target.value)}
-            className="bg-blue-400 px-6 py-2 text-white rounded hover:bg-blue-300 duration-150"
+            className="bg-blue-600 px-6 py-2 text-white rounded hover:bg-blue-500 duration-150"
           />
 
           <input
             type="button"
             value="4"
             onClick={(e) => setDisplayValue(displayValue + e.target.value)}
-            className="bg-blue-400 px-6 py-2 text-white rounded hover:bg-blue-300 duration-150"
+            className="bg-blue-600 px-6 py-2 text-white rounded hover:bg-blue-500 duration-150"
           />
 
           <input
             type="button"
             value="-"
             onClick={(e) => setDisplayValue(displayValue + e.target.value)}
-            className="bg-blue-400 px-6 py-2 text-white rounded hover:bg-blue-300 duration-150"
+            className="bg-blue-600 px-6 py-2 text-white rounded hover:bg-blue-500 duration-150"
           />
 
           <input
             type="button"
             value="3"
             onClick={(e) => setDisplayValue(displayValue + e.target.value)}
-            className="bg-blue-400 px-6 py-2 text-white rounded hover:bg-blue-300 duration-150"
+            className="bg-blue-600 px-6 py-2 text-white rounded hover:bg-blue-500 duration-150"
           />
 
           <input
             type="button"
             value="2"
             onClick={(e) => setDisplayValue(displayValue + e.target.value)}
-            className="bg-blue-400 px-6 py-2 text-white rounded hover:bg-blue-300 duration-150"
+            className="bg-blue-600 px-6 py-2 text-white rounded hover:bg-blue-500 duration-150"
           />
 
           <input
             type="button"
             value="1"
             onClick={(e) => setDisplayValue(displayValue + e.target.value)}
-            className="bg-blue-400 px-6 py-2 text-white rounded hover:bg-blue-300 duration-150"
+            className="bg-blue-600 px-6 py-2 text-white rounded hover:bg-blue-500 duration-150"
           />
 
           <input
             type="button"
             value="*"
             onClick={(e) => setDisplayValue(displayValue + e.target.value)}
-            className="bg-blue-400 px-6 py-2 text-white rounded hover:bg-blue-300 duration-150"
+            className="bg-blue-600 px-6 py-2 text-white rounded hover:bg-blue-500 duration-150"
           />
 
           <input
             type="button"
             value="."
             onClick={(e) => setDisplayValue(displayValue + e.target.value)}
-            className="bg-blue-400 px-6 py-2 text-white rounded hover:bg-blue-300 duration-150"
+            className="bg-blue-600 px-6 py-2 text-white rounded hover:bg-blue-500 duration-150"
           />
 
           <input
             type="button"
             value="0"
             onClick={(e) => setDisplayValue(displayValue + e.target.value)}
-            className="bg-blue-400 px-6 py-2 text-white rounded hover:bg-blue-300 duration-150"
+            className="bg-blue-600 px-6 py-2 text-white rounded hover:bg-blue-500 duration-150"
           />
 
           <input
             type="button"
             value="/"
             onClick={(e) => setDisplayValue(displayValue + e.target.value)}
-            className="bg-blue-400 px-6 py-2 text-white rounded hover:bg-blue-300 duration-150"
+            className="bg-blue-600 px-6 py-2 text-white rounded hover:bg-blue-500 duration-150"
           />
 
           <input
             type="button"
             value="="
             onClick={(e) => setDisplayValue(eval(displayValue))}
-            className="bg-rose-400 px-6 py-2 text-white rounded hover:bg-rose-300 duration-150 span-2"
+            className="bg-rose-
+
+            px-6 py-2 text-white rounded hover:bg-rose-500 duration-150 span-2"
           />
 
           <input
             type="button"
             value="Clear!"
             onClick={(e) => setDisplayValue("")}
-            className="bg-red-400 px-6 py-2 text-white rounded hover:bg-red-300 duration-150 col-span-4"
+            className="bg-red-600 px-6 py-2 text-white rounded hover:bg-red-500 duration-150 col-span-4"
           />
         </div>
       </section>
