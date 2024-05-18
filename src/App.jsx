@@ -115,7 +115,7 @@ const App = (btn_value) => {
           <input
             type="button"
             value="/"
-            onClick={(e) => setDisplayValue(displayValue + e.target.className)}
+            onClick={(e) => setDisplayValue(displayValue + e.target.value)}
             className="bg-blue-400 px-6 py-2 text-white rounded hover:bg-blue-300 duration-150"
           />
 
